@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Programming Quiz</title>
-  <link rel="stylesheet" href="quiz.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css">
 </head>
 <body>
-  <div class="quiz-container">
-    <h1 class="question">Question goes here</h1>
-    <div class="options">
-      <button class="option">Option 1</button>
-      <button class="option">Option 2</button>
-      <button class="option">Option 3</button>
-      <button class="option">Option 4</button>
+    <div class="quiz-container">
+        <div id="question"></div>
+        <div id="options" class="options-container"></div>
+        <button id="submit-btn">Submit</button>
+        <div id="result"></div>
     </div>
-    <button class="next-btn">⏭️</button>
-    <p class="message"></p>
-  </div>
-  <script src="quiz.js"></script>
+
+    <script src="quiz.js"></script>
 </body>
 </html>
