@@ -87,9 +87,7 @@ function checkAnswer(selectedOption, correctAnswer) {
       showResult();
   }
 }
-
 function showResult() {
   resultElement.textContent = `You scored ${score} out of ${quizData.length}`;
 }
-
 showQuestion(currentQuestionIndex);
