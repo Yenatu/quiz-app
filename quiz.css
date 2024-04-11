@@ -17,6 +17,12 @@ body {
   gap: 10px;
 }
 
+#options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
 
 
 button {
